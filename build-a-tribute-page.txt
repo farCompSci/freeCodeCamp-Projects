@@ -1,0 +1,100 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jordan Peterson Info Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <header id="header">
+        <h1 id="title">Jordan B. Peterson</h1>
+        <p>Author and Clinical Psychologist</p>
+      </header>
+      <main id="main">
+        <figure id="img-div">
+          <img  id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Jordan_Peterson_by_Gage_Skidmore.jpg/330px-Jordan_Peterson_by_Gage_Skidmore.jpg">
+          <figcaption id="img-caption">@Jordan Peterson Wikipedia Picture</figcaption>
+        </figure>
+        <section id="tribute-info">
+          <fieldset class="tribute-paragraphs">
+            <h2 class="subtitle">Jordan Peterson's Books</h2>
+            <ul>
+              <li>Maps of Meaning (1999)</li>
+              <li>12 Rules for Life (2018)</li>
+              <li>Beyond Order (2021)</li>
+            </ul>
+            <h2></h2>
+          </fieldset>
+          <fieldset class="same-as-header">
+            <a id="tribute-link" href="https://en.wikipedia.org/wiki/Jordan_Peterson" target="_blank">More Info about Jordan Peterson</a>
+          </fieldset>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+#header, .same-as-header, a{
+  text-align:center;
+  background-color: #192341;
+  color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 25px;
+}
+
+.container{
+  background: black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#image{
+  margin-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  max-width: 100%;
+  min-height: 10rem;
+  min-width: 10rem;
+  object-fit: contain;
+  margin-bottom: 5%;
+}
+
+#img-caption{
+  text-align:right;
+  margin: auto;
+}
+
+.tribute-paragraphs {
+  margin-top: 5px;
+  margin-bottom:3%;
+  background-color: white;
+  border: rbga(160,0,0,0.5);
+  border-radius: 12px;
+}
+
+#tribute-info {
+  text-align: center
+}
+
+ul {
+  list-style: none;
+  gap: 2px;
+}
+
+a {
+  text-decoration:none;
+}
+
+** end of undefined **
+
